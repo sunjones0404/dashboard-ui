@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard UI</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a119c2ebfe.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="light">
+    <header class="header">
+      <div id="welcome" class="welcome"></div>
+      <div class="notifications__wrapper">
+        <div id="notification-text" class="notifications__text"></div>
+        <ul id="notifications" class="notifications"></ul>
+      </div>
+    </header>
+    <div class="grid">
+      <div class="sidebar">
+        <div id="user" class="user"></div>
+        <div id="scan-summary" class="scan-summary"></div>
+        <button class="toggle-btn">Dark Mode</button>
+      </div>
+      <div class="content">
+        <div class="vulnerabilities__wrapper">
+          <p class="vulnerabilities__title">
+            Vulnerabilities
+            <span
+              id="vulnerabilities-count"
+              class="vulnerabilities__count"
+            ></span>
+          </p>
+          <div id="vulnerabilities" class="vulnerabilities"></div>
+        </div>
+        <div class="assets__wrapper">
+          <p class="assets__title">Assets</p>
+          <div id="assets" class="assets"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

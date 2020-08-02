@@ -1,0 +1,39 @@
+$bp-mobile: 640px;
+$bp-tablet: 768px;
+
+:root {
+  --base: 25px;
+  --critical: #e00000;
+  --high: #ff7b00;
+  --medium: #ffd000;
+  --low: #30aa00;
+  --information: #167bff;
+}
+
+.light {
+  --bg: #fcfcfc;
+  --primary: #16317a;
+  --secondary: #e9f4ff;
+  --tertiary: #f6faff;
+  --text: #555555;
+  --highlight: #e90a79;
+  --highlight-secondary: #00aeff;
+  --list-item-hover: #f6faff;
+  --item-bg: #ffffff;
+  --border: #cfcfcf;
+  --date: #888888;
+}
+
+.dark {
+  --bg: #222222;
+  --primary: #cccccc;
+  --secondary: #050505;
+  --tertiary: #111111;
+  --text: #bbbbbb;
+  --highlight: #e90a79;
+  --highlight-secondary: #00aeff;
+  --list-item-hover: #333333;
+  --item-bg: #222222;
+  --border: #555555;
+  --date: #888888;
+}
