@@ -47,6 +47,6 @@
   "dependencies": {
     "@babel/polyfill": "^7.10.1",
     "core-js": "^3.6.5",
-    "moment": "^2.27.0"
+    "moment": "^2.29.2"
   }
 }
